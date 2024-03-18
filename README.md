@@ -1,32 +1,20 @@
-#Tracking Phone Number Location Using Python
+# Phone Number Tracker
 
-###This project is a Python application designed to locate the geographical position of a given phone number. Leveraging various APIs and technologies, it retrieves and processes location data associated with the provided phone number, presenting the results in an intuitive interface.
-Key Features
+This is a simple Python application to track the location of a given phone number using the NumVerify API.
 
-    Phone Number Input: Users can input the phone number they wish to track.
-    Data Retrieval: Utilizes telecom APIs or databases to gather information related to the provided phone number.
-    Geolocation Processing: Extracts geographical coordinates (latitude and longitude) associated with the phone number.
-    Mapping Integration: Displays the location on a map interface using mapping APIs like Google Maps.
-    User Interface: Offers a user-friendly interface for seamless interaction, input, and result viewing.
-    Error Handling: Robust error handling mechanisms manage cases of invalid phone numbers or failed data retrieval.
-    Privacy Considerations: Adheres to data protection regulations and ensures secure handling of sensitive information.
+## Setup
 
-Technologies Used
+1. Clone the repository.
+2. Install dependencies using `pip install -r requirements.txt`.
+3. Replace `'YOUR_API_KEY'` in `phone_tracker/tracker.py` with your actual API key from NumVerify.
+4. Run the application with `python main.py`.
 
-    Python: Core programming language for application logic.
-    Telecom APIs: Accesses location data associated with phone numbers.
-    Mapping APIs: Displays location on a map interface (e.g., Google Maps API).
-    GUI Frameworks: Tkinter or PyQt for building the graphical user interface.
-    Data Processing Libraries: NumPy, Pandas, or Requests for data handling tasks.
-    Error Handling: Python's exception handling mechanisms for graceful error management.
+## Usage
 
-Usage
+1. Enter the phone number in the provided field.
+2. Click the "Track" button to retrieve the location information.
+3. The result will be displayed below the button.
 
-    Clone the repository to your local machine.
-    Install necessary dependencies using pip install -r requirements.txt.
-    Run the application with python main.py.
-    Input the phone number you wish to track and view the location results.
+## License
 
-Contribution
-
-Contributions are welcome! If you have any ideas for improvements, feel free to open an issue or submit a pull request.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
