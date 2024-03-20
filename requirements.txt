@@ -1,0 +1,3 @@
+phonenumbers==8.12.32
+opencage==1.2.2
+tkintermapview==0.0.7
