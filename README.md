@@ -13,4 +13,4 @@ Phone Number Tracker is a Python application that allows users to track the loca
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/phone-number-tracker.git
+git clone git@github.com:ThariduNiroshan530/Tracking-phone-number-location-using-python.git
